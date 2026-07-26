@@ -6,8 +6,8 @@ I built this when I was moving Home Assistant from an old PC to a new PC and I d
 
 After you've cloned the repo, cd into it and 
 
-export HA_TOKEN="a long-lived access token"
-export HA_URL="http://192.168.8.2:8123"
+```export HA_TOKEN="a long-lived access token"```
+```export HA_URL="http://192.168.8.2:8123"```
 
 Then 
 
