@@ -28,10 +28,12 @@ python ha_audit.py
 This will create two files 
 
 audit.json - a list of everything
+
 rebuild.md - a MarkDown file formatted as a decision list
 
 If you already have your new Home Assistant machine set up and you've been moving things to it you can 
 
+```
 export HA_TOKEN="a long-lived access token from your new server"
 export HA_URL="http://192.168.8.3:8123"
 
@@ -41,5 +43,6 @@ mv rebuild.md old-rebuild.md
 python ha_audit.py
 
 python ha_audit.py compare old-audit.json audit.json
+```
 
 which will give you progress.md showing you what already exists on both.
