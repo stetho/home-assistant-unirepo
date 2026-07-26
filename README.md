@@ -11,13 +11,13 @@ export HA_URL="http://192.168.8.2:8123"```
 
 Then 
 
-``python3 -m venv .venv
+```python3 -m venv .venv
 source .venv/bin/activate
 pip install websockets```
 
 
 
-python ha_audit.py
+```python ha_audit.py```
 
 This will create two files 
 
